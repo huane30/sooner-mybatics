@@ -19,12 +19,9 @@ import lombok.Data;
 import lombok.experimental.Accessors;
 
 /**
- * <p>
- * Sql Info
- * </p>
- *
- * @author hubin
- * @since 2017-06-20
+ * @Auther: Hoo
+ * @Date: 2018/9/11
+ * @Description:  Sql Info
  */
 @Data
 @Accessors(chain = true)

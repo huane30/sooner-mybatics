@@ -27,12 +27,9 @@ import static java.util.stream.Collectors.toCollection;
 import static java.util.stream.Collectors.toMap;
 
 /**
- * <p>
- * 反射工具类
- * </p>
- *
- * @author Caratacus
- * @since 2016-09-22
+ * @Auther: Hoo
+ * @Date: 2018/9/11
+ * @Description: 反射工具类
  */
 public class ReflectionKit {
 

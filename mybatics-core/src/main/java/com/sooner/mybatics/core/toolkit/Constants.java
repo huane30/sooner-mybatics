@@ -17,12 +17,9 @@
 package com.sooner.mybatics.core.toolkit;
 
 /**
- * <p>
- * mybatis_plus 自用常量集中管理
- * </p>
- *
- * @author miemie
- * @since 2018-07-22
+ * @Auther: Hoo
+ * @Date: 2018/9/12
+ * @Description: mybatis_plus 自用常量集中管理
  */
 public interface Constants {
 

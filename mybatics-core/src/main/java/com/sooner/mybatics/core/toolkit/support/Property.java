@@ -19,8 +19,9 @@ package com.sooner.mybatics.core.toolkit.support;
 import java.io.Serializable;
 
 /**
- * @author miemie
- * @since 2018-05-12
+ * @Auther: Hoo
+ * @Date: 2018/9/12 
+ * @Description: 
  */
 @FunctionalInterface
 public interface Property<T, R> extends Serializable {

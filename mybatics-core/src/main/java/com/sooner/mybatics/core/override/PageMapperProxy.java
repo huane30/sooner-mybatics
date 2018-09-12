@@ -28,13 +28,10 @@ import java.lang.reflect.Modifier;
 import java.util.Map;
 
 /**
- * <p>
- * 替换掉引用<br/>
+ * @Auther: Hoo
+ * @Date: 2018/9/11
+ * @Description: 替换掉引用<br/>
  * 重写类： org.apache.ibatis.binding.MapperProxy
- * </p>
- *
- * @author miemie
- * @since 2018-06-09
  */
 public class PageMapperProxy<T> implements InvocationHandler, Serializable {
 

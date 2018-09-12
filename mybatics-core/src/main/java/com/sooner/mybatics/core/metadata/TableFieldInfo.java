@@ -15,25 +15,22 @@
  */
 package com.sooner.mybatics.core.metadata;
 
-import com.baomidou.mybatisplus.annotation.*;
-import com.baomidou.mybatisplus.core.config.GlobalConfig;
-import com.baomidou.mybatisplus.core.toolkit.StringPool;
-import com.baomidou.mybatisplus.core.toolkit.StringUtils;
-import com.baomidou.mybatisplus.core.toolkit.TableInfoHelper;
-import com.baomidou.mybatisplus.core.toolkit.sql.SqlScriptUtils;
-import com.baomidou.mybatisplus.core.toolkit.sql.SqlUtils;
+import com.sooner.mybatics.anno.*;
+import com.sooner.mybatics.core.config.GlobalConfig;
+import com.sooner.mybatics.core.toolkit.StringPool;
+import com.sooner.mybatics.core.toolkit.StringUtils;
+import com.sooner.mybatics.core.toolkit.TableInfoHelper;
+import com.sooner.mybatics.core.toolkit.sql.SqlScriptUtils;
+import com.sooner.mybatics.core.toolkit.sql.SqlUtils;
 import lombok.AccessLevel;
 import lombok.Getter;
 
 import java.lang.reflect.Field;
 
 /**
- * <p>
- * 数据库表字段反射信息
- * </p>
- *
- * @author hubin sjy willenfoo tantan
- * @since 2016-09-09
+ * @Auther: Hoo
+ * @Date: 2018/9/12
+ * @Description: 数据库表字段反射信息
  */
 public class TableFieldInfo {
 

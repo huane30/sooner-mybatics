@@ -15,8 +15,8 @@
  */
 package com.sooner.mybatics.core.override;
 
-import com.baomidou.mybatisplus.core.metadata.IPage;
-import com.baomidou.mybatisplus.core.toolkit.StringPool;
+import com.sooner.mybatics.core.metadata.IPage;
+import com.sooner.mybatics.core.toolkit.StringPool;
 import org.apache.ibatis.annotations.Flush;
 import org.apache.ibatis.annotations.MapKey;
 import org.apache.ibatis.binding.BindingException;
@@ -41,12 +41,9 @@ import java.util.List;
 import java.util.Map;
 
 /**
- * <p>
- * 重写类： org.apache.ibatis.binding.MapperMethod
- * </p>
- *
- * @author miemie
- * @since 2018-06-09
+ * @Auther: Hoo
+ * @Date: 2018/9/11
+ * @Description: 重写类： org.apache.ibatis.binding.MapperMethod
  */
 public class PageMapperMethod {
 

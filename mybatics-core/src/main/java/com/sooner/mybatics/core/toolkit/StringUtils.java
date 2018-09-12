@@ -15,7 +15,7 @@
  */
 package com.sooner.mybatics.core.toolkit;
 
-import com.baomidou.mybatisplus.core.toolkit.sql.StringEscape;
+import com.sooner.mybatics.core.toolkit.sql.StringEscape;
 
 import java.nio.charset.StandardCharsets;
 import java.sql.Blob;

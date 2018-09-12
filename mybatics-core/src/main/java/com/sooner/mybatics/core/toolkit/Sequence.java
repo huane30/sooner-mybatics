@@ -24,13 +24,9 @@ import java.net.NetworkInterface;
 import java.util.concurrent.ThreadLocalRandom;
 
 /**
- * <p>
- * 分布式高效有序ID生产黑科技(sequence) <br>
- * 优化开源项目：http://git.oschina.net/yu120/sequence
- * </p>
- *
- * @author hubin
- * @since 2016-08-18
+ * @Auther: Hoo
+ * @Date: 2018/9/12
+ * @Description: 分布式高效有序ID生产黑科技(sequence)
  */
 public class Sequence {
 

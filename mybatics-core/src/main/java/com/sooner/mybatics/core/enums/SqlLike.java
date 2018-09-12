@@ -16,12 +16,9 @@
 package com.sooner.mybatics.core.enums;
 
 /**
- * <p>
- * SQL like 枚举
- * </p>
- *
- * @author Caratacus
- * @since 2016-12-4
+ * @Auther: Hoo
+ * @Date: 2018/9/11
+ * @Description: SQL like 枚举
  */
 public enum SqlLike {
     /**

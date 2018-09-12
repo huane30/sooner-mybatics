@@ -15,19 +15,15 @@
  */
 package com.sooner.mybatics.core.toolkit;
 
-
-import com.baomidou.mybatisplus.core.enums.IEnum;
+import com.sooner.mybatics.core.enums.IEnum;
 
 import java.lang.reflect.Field;
 import java.util.Objects;
 
 /**
- * <p>
- * 枚举处理工具类
- * </p>
- *
- * @author hubin
- * @since 2017-10-11
+ * @Auther: Hoo
+ * @Date: 2018/9/12
+ * @Description: 枚举处理工具类
  */
 public class EnumUtils {
 

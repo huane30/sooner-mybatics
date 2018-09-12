@@ -18,12 +18,9 @@ package com.sooner.mybatics.core.parser;
 import org.apache.ibatis.reflection.MetaObject;
 
 /**
- * <p>
- * SQL 解析接口
- * </p>
- *
- * @author hubin
- * @since 2017-09-01
+ * @Auther: Hoo
+ * @Date: 2018/9/11
+ * @Description: SQL 解析接口
  */
 public interface ISqlParser {
 

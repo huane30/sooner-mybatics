@@ -15,14 +15,10 @@
  */
 package com.sooner.mybatics.core.incrementer;
 
-
 /**
- * <p>
- * 表主键生成器接口 (sql)
- * </p>
- *
- * @author hubin
- * @since 2017-05-08
+ * @Auther: Hoo
+ * @Date: 2018/9/11
+ * @Description: 表主键生成器接口 (sql)
  */
 public interface IKeyGenerator {
 

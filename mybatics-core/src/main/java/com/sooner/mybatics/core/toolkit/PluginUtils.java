@@ -22,12 +22,9 @@ import java.lang.reflect.Proxy;
 import java.util.Properties;
 
 /**
- * <p>
- * 插件工具类
- * </p>
- *
- * @author TaoYu , hubin
- * @since 2017-06-20
+ * @Auther: Hoo
+ * @Date: 2018/9/11
+ * @Description: 插件工具类
  */
 public abstract class PluginUtils {
 

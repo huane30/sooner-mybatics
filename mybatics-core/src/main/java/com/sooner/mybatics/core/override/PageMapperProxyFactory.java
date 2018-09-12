@@ -23,13 +23,10 @@ import java.util.Map;
 import java.util.concurrent.ConcurrentHashMap;
 
 /**
- * <p>
- * 替换掉引用<br/>
+ * @Auther: Hoo
+ * @Date: 2018/9/11
+ * @Description: 替换掉引用<br/>
  * 重写类： org.apache.ibatis.binding.MapperProxyFactory
- * </p>
- *
- * @author miemie
- * @since 2018-06-09
  */
 public class PageMapperProxyFactory<T> {
 

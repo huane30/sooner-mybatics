@@ -15,9 +15,9 @@
  */
 package com.sooner.mybatics.core.injector;
 
-import com.baomidou.mybatisplus.core.parser.SqlParserHelper;
-import com.baomidou.mybatisplus.core.toolkit.Assert;
-import com.baomidou.mybatisplus.core.toolkit.GlobalConfigUtils;
+import com.sooner.mybatics.core.parser.SqlParserHelper;
+import com.sooner.mybatics.core.toolkit.Assert;
+import com.sooner.mybatics.core.toolkit.GlobalConfigUtils;
 import org.apache.ibatis.builder.MapperBuilderAssistant;
 import org.apache.ibatis.session.Configuration;
 
@@ -26,12 +26,9 @@ import java.util.Set;
 
 
 /**
- * <p>
- * SQL 自动注入器
- * </p>
- *
- * @author hubin
- * @since 2018-04-07
+ * @Auther: Hoo
+ * @Date: 2018/9/11
+ * @Description: SQL 自动注入器
  */
 public abstract class AbstractSqlInjector implements ISqlInjector {
 

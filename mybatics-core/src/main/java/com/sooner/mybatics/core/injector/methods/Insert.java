@@ -15,14 +15,14 @@
  */
 package com.sooner.mybatics.core.injector.methods;
 
-import com.baomidou.mybatisplus.annotation.IdType;
-import com.baomidou.mybatisplus.core.enums.SqlMethod;
-import com.baomidou.mybatisplus.core.injector.AbstractMethod;
-import com.baomidou.mybatisplus.core.metadata.TableInfo;
-import com.baomidou.mybatisplus.core.toolkit.StringPool;
-import com.baomidou.mybatisplus.core.toolkit.StringUtils;
-import com.baomidou.mybatisplus.core.toolkit.TableInfoHelper;
-import com.baomidou.mybatisplus.core.toolkit.sql.SqlScriptUtils;
+import com.sooner.mybatics.anno.IdType;
+import com.sooner.mybatics.core.enums.SqlMethod;
+import com.sooner.mybatics.core.injector.AbstractMethod;
+import com.sooner.mybatics.core.metadata.TableInfo;
+import com.sooner.mybatics.core.toolkit.StringPool;
+import com.sooner.mybatics.core.toolkit.StringUtils;
+import com.sooner.mybatics.core.toolkit.TableInfoHelper;
+import com.sooner.mybatics.core.toolkit.sql.SqlScriptUtils;
 import org.apache.ibatis.executor.keygen.Jdbc3KeyGenerator;
 import org.apache.ibatis.executor.keygen.KeyGenerator;
 import org.apache.ibatis.executor.keygen.NoKeyGenerator;
@@ -30,19 +30,17 @@ import org.apache.ibatis.mapping.MappedStatement;
 import org.apache.ibatis.mapping.SqlSource;
 
 /**
- * <p>
- * 根据 ID 删除
- * </p>
- *
- * @author hubin
- * @since 2018-04-06
+ * @Auther: Hoo
+ * @Date: 2018/9/12
+ * @Description: 根据 ID 删除
  */
 public class Insert extends AbstractMethod {
 
     @Override
     public MappedStatement injectMappedStatement(Class<?> mapperClass, Class<?> modelClass, TableInfo tableInfo) {
         KeyGenerator keyGenerator = new NoKeyGenerator();
-        SqlMethod sqlMethod = SqlMethod.INSERT_ONE;
+        SqlMethod sqlMethod;
+        sqlMethod = SqlMethod.INSERT_ONE;
         String columnScript = SqlScriptUtils.convertTrim(tableInfo.getAllInsertSqlColumn(),
             StringPool.LEFT_BRACKET, StringPool.RIGHT_BRACKET, null, StringPool.COMMA);
         String valuesScript = SqlScriptUtils.convertTrim(tableInfo.getAllInsertSqlProperty(),

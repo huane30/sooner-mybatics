@@ -15,21 +15,18 @@
  */
 package com.sooner.mybatics.core.injector.methods;
 
-import com.baomidou.mybatisplus.core.enums.SqlMethod;
-import com.baomidou.mybatisplus.core.injector.AbstractMethod;
-import com.baomidou.mybatisplus.core.metadata.TableInfo;
+import com.sooner.mybatics.core.enums.SqlMethod;
+import com.sooner.mybatics.core.injector.AbstractMethod;
+import com.sooner.mybatics.core.metadata.TableInfo;
 import org.apache.ibatis.mapping.MappedStatement;
 import org.apache.ibatis.mapping.SqlSource;
 
 import java.util.Map;
 
 /**
- * <p>
- * 根据 ID 删除
- * </p>
- *
- * @author hubin
- * @since 2018-04-06
+ * @Auther: Hoo
+ * @Date: 2018/9/12
+ * @Description: 根据 ID 删除
  */
 public class SelectMapsPage extends AbstractMethod {
 

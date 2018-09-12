@@ -15,7 +15,7 @@
  */
 package com.sooner.mybatics.core.injector;
 
-import com.baomidou.mybatisplus.core.injector.methods.*;
+import com.sooner.mybatics.core.injector.methods.*;
 import org.apache.ibatis.session.Configuration;
 
 import java.util.List;
@@ -24,12 +24,9 @@ import java.util.stream.Stream;
 
 
 /**
- * <p>
- * SQL 默认注入器
- * </p>
- *
- * @author hubin
- * @since 2018-04-10
+ * @Auther: Hoo
+ * @Date: 2018/9/11
+ * @Description: SQL 默认注入器
  */
 public class DefaultSqlInjector extends AbstractSqlInjector {
 

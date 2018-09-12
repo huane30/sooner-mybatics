@@ -20,12 +20,9 @@ import java.security.MessageDigest;
 import java.util.Base64;
 
 /**
- * <p>
- * 枚举处理工具类
- * </p>
- *
- * @author hubin
- * @since 2018-08-02
+ * @Auther: Hoo
+ * @Date: 2018/9/11
+ * @Description: 枚举处理工具类
  */
 public class EncryptUtils {
 

@@ -30,12 +30,9 @@ import java.sql.ResultSet;
 import java.sql.Statement;
 
 /**
- * <p>
- * IOUtils Copy org.apache.commons.io.IOUtils
- * </p>
- *
- * @author Caratacus
- * @since 2016-11-23
+ * @Auther: Hoo
+ * @Date: 2018/9/12
+ * @Description:
  */
 public class IOUtils {
 

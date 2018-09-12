@@ -1,9 +1,6 @@
 /**
- * <p>
- * Page 部分重构相关逻辑类
- * </p>
- *
- * @author hubin
- * @since 2018-06-09
+ * @Auther: Hoo
+ * @Date: 2018/9/11 
+ * @Description: 
  */
 package com.sooner.mybatics.core.override;

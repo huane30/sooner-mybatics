@@ -16,30 +16,14 @@
  */
 package com.sooner.mybatics.core.toolkit;
 
-import com.baomidou.mybatisplus.core.exceptions.MybatisPlusException;
-
 import java.io.*;
 import java.util.HashMap;
 import java.util.Map;
 
-
 /**
- * <p>Assists with the serialization process and performs additional functionality based
- * on serialization.</p>
- * <p>
- * <ul>
- * <li>Deep clone using serialization
- * <li>Serialize managing finally and IOException
- * <li>Deserialize managing finally and IOException
- * </ul>
- * <p>
- * <p>This class throws exceptions for invalid {@code null} inputs.
- * Each method documents its behaviour in more detail.</p>
- * <p>
- * <p>#ThreadSafe#</p>
- * <p>copy from org.apache.commons.lang3.SerializationUtils</p>
- *
- * @since 1.0
+ * @Auther: Hoo
+ * @Date: 2018/9/12
+ * @Description:
  */
 public class SerializationUtils {
 

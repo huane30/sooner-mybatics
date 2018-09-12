@@ -18,12 +18,9 @@ package com.sooner.mybatics.core.enums;
 import java.io.Serializable;
 
 /**
- * <p>
- * 自定义枚举接口
- * </p>
- *
- * @author hubin
- * @since 2017-10-11
+ * @Auther: Hoo
+ * @Date: 2018/9/11
+ * @Description: 自定义枚举接口
  */
 public interface IEnum<T extends Serializable> {
 

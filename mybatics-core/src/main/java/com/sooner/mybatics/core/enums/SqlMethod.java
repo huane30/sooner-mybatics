@@ -16,12 +16,9 @@
 package com.sooner.mybatics.core.enums;
 
 /**
- * <p>
- * MybatisPlus 支持 SQL 方法
- * </p>
- *
- * @author hubin
- * @since 2016-01-23
+ * @Auther: Hoo
+ * @Date: 2018/9/11
+ * @Description: MybatisPlus 支持 SQL 方法
  */
 public enum SqlMethod {
     /**

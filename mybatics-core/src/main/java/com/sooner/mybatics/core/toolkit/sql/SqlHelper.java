@@ -15,11 +15,11 @@
  */
 package com.sooner.mybatics.core.toolkit.sql;
 
-import com.baomidou.mybatisplus.core.conditions.Wrapper;
-import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
-import com.baomidou.mybatisplus.core.metadata.IPage;
-import com.baomidou.mybatisplus.core.metadata.TableInfo;
-import com.baomidou.mybatisplus.core.toolkit.*;
+import com.sooner.mybatics.core.conditions.Wrapper;
+import com.sooner.mybatics.core.conditions.query.QueryWrapper;
+import com.sooner.mybatics.core.metadata.IPage;
+import com.sooner.mybatics.core.metadata.TableInfo;
+import com.sooner.mybatics.core.toolkit.*;
 import org.apache.ibatis.logging.Log;
 import org.apache.ibatis.logging.LogFactory;
 import org.apache.ibatis.session.ExecutorType;
@@ -29,12 +29,9 @@ import org.apache.ibatis.session.SqlSessionFactory;
 import java.util.List;
 
 /**
- * <p>
- * SQL 辅助类
- * </p>
- *
- * @author hubin
- * @since 2016-11-06
+ * @Auther: Hoo
+ * @Date: 2018/9/11
+ * @Description: SQL 辅助类
  */
 public final class SqlHelper {
 

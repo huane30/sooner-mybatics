@@ -5,12 +5,9 @@ import java.util.Collection;
 import java.util.Map;
 
 /**
- * <p>
- * 对象工具类
- * <p>
- *
- * @author hubin
- * @since 2018-06-05
+ * @Auther: Hoo
+ * @Date: 2018/9/11
+ * @Description: 对象工具类
  */
 public class ObjectUtils {
 

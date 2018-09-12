@@ -22,12 +22,9 @@ import java.util.Arrays;
 import java.util.List;
 
 /**
- * <p>
- * 合并 SQL 片段
- * </p>
- *
- * @author miemie
- * @since 2018-06-27
+ * @Auther: Hoo
+ * @Date: 2018/9/12
+ * @Description: 合并 SQL 片段
  */
 @SuppressWarnings("serial")
 public class MergeSegments implements ISqlSegment {

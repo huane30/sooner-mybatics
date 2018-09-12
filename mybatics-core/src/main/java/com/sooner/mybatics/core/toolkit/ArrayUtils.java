@@ -17,12 +17,9 @@
 package com.sooner.mybatics.core.toolkit;
 
 /**
- * <p>
- * ArrayUtils工具类
- * </p>
- *
- * @author Caratacus
- * @since 2017-03-09
+ * @Auther: Hoo
+ * @Date: 2018/9/11
+ * @Description: ArrayUtils工具类
  */
 public final class ArrayUtils {
 

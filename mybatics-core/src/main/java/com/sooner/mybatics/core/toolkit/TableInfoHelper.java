@@ -15,12 +15,12 @@
  */
 package com.sooner.mybatics.core.toolkit;
 
-import com.baomidou.mybatisplus.annotation.*;
-import com.baomidou.mybatisplus.core.config.GlobalConfig;
-import com.baomidou.mybatisplus.core.incrementer.IKeyGenerator;
-import com.baomidou.mybatisplus.core.metadata.TableFieldInfo;
-import com.baomidou.mybatisplus.core.metadata.TableInfo;
-import com.baomidou.mybatisplus.core.toolkit.sql.SqlHelper;
+import com.sooner.mybatics.anno.*;
+import com.sooner.mybatics.core.config.GlobalConfig;
+import com.sooner.mybatics.core.incrementer.IKeyGenerator;
+import com.sooner.mybatics.core.metadata.TableFieldInfo;
+import com.sooner.mybatics.core.metadata.TableInfo;
+import com.sooner.mybatics.core.toolkit.sql.SqlHelper;
 import org.apache.ibatis.builder.MapperBuilderAssistant;
 import org.apache.ibatis.executor.keygen.KeyGenerator;
 import org.apache.ibatis.executor.keygen.NoKeyGenerator;
@@ -42,12 +42,9 @@ import java.util.concurrent.ConcurrentHashMap;
 import static java.util.stream.Collectors.toList;
 
 /**
- * <p>
- * 实体类反射表辅助类
- * </p>
- *
- * @author hubin sjy
- * @since 2016-09-09
+ * @Auther: Hoo
+ * @Date: 2018/9/11
+ * @Description: 实体类反射表辅助类
  */
 public class TableInfoHelper {
 
@@ -139,7 +136,7 @@ public class TableInfoHelper {
         TableInfo tableInfo = TABLE_INFO_CACHE.get(clazz.getName());
         if (tableInfo != null) {
             if (tableInfo.getConfigMark() == null && builderAssistant != null) {
-                tableInfo.setConfigMark(builderAssistant.getConfiguration());
+                //tableInfo.setConfigMark(builderAssistant.getConfiguration());
             }
             return tableInfo;
         }
@@ -149,7 +146,7 @@ public class TableInfoHelper {
         GlobalConfig globalConfig;
         if (null != builderAssistant) {
             tableInfo.setCurrentNamespace(builderAssistant.getCurrentNamespace());
-            tableInfo.setConfigMark(builderAssistant.getConfiguration());
+           // tableInfo.setConfigMark(builderAssistant.getConfiguration());
             tableInfo.setUnderCamel(builderAssistant.getConfiguration().isMapUnderscoreToCamelCase());
             globalConfig = GlobalConfigUtils.getGlobalConfig(builderAssistant.getConfiguration());
         } else {
@@ -334,7 +331,7 @@ public class TableInfoHelper {
                     }
                 }
                 tableInfo.setKeyRelated(checkRelated(underCamel, field.getName(), column))
-                    .setClazz(field.getDeclaringClass())
+                   .setClazz(field.getDeclaringClass())
                     .setKeyColumn(column)
                     .setKeyProperty(field.getName());
                 return true;

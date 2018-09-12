@@ -1,12 +1,9 @@
 package com.sooner.mybatics.core.toolkit.sql;
 
 /**
- * <p>
- * StringEscape ，数据库字符串转义
- * </p>
- *
- * @author Caratacus
- * @since 2016-10-16
+ * @Auther: Hoo
+ * @Date: 2018/9/11
+ * @Description: StringEscape ，数据库字符串转义
  */
 public class StringEscape {
 

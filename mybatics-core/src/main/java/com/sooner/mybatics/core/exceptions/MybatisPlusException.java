@@ -16,12 +16,9 @@
 package com.sooner.mybatics.core.exceptions;
 
 /**
- * <p>
- * MybatisPlus 异常类
- * </p>
- *
- * @author hubin
- * @since 2016-01-23
+ * @Auther: Hoo
+ * @Date: 2018/9/11
+ * @Description: MybatisPlus 异常类
  */
 public class MybatisPlusException extends RuntimeException {
 

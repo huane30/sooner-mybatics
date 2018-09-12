@@ -15,8 +15,8 @@
  */
 package com.sooner.mybatics.core.parser;
 
-import com.baomidou.mybatisplus.annotation.SqlParser;
-import com.baomidou.mybatisplus.core.toolkit.StringPool;
+import com.sooner.mybatics.anno.SqlParser;
+import com.sooner.mybatics.core.toolkit.StringPool;
 import org.apache.ibatis.mapping.MappedStatement;
 import org.apache.ibatis.reflection.MetaObject;
 
@@ -25,12 +25,9 @@ import java.util.Map;
 import java.util.concurrent.ConcurrentHashMap;
 
 /**
- * <p>
- * SQL 解析辅助类
- * </p>
- *
- * @author hubin
- * @since 2018-07-22
+ * @Auther: Hoo
+ * @Date: 2018/9/11
+ * @Description: SQL 解析辅助类
  */
 public class SqlParserHelper {
 

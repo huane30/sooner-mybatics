@@ -20,12 +20,9 @@ import java.util.List;
 import java.util.Map;
 
 /**
- * <p>
- * 分页 Page 对象接口
- * </p>
- *
- * @author hubin
- * @since 2018-06-09
+ * @Auther: Hoo
+ * @Date: 2018/9/12
+ * @Description: 分页 Page 对象接口
  */
 public interface IPage<T> extends Serializable {
 

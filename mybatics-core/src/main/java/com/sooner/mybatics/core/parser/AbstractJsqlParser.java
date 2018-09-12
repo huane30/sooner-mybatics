@@ -15,11 +15,9 @@
  */
 package com.sooner.mybatics.core.parser;
 
-import com.baomidou.mybatisplus.core.toolkit.ExceptionUtils;
+import com.sooner.mybatics.core.toolkit.ExceptionUtils;
 import net.sf.jsqlparser.JSQLParserException;
-import net.sf.jsqlparser.parser.CCJSqlParserUtil;
 import net.sf.jsqlparser.statement.Statement;
-import net.sf.jsqlparser.statement.Statements;
 import net.sf.jsqlparser.statement.delete.Delete;
 import net.sf.jsqlparser.statement.insert.Insert;
 import net.sf.jsqlparser.statement.select.Select;
@@ -30,12 +28,9 @@ import org.apache.ibatis.logging.LogFactory;
 import org.apache.ibatis.reflection.MetaObject;
 
 /**
- * <p>
- * 抽象 SQL 解析类
- * </p>
- *
- * @author hubin
- * @since 2017-06-20
+ * @Auther: Hoo
+ * @Date: 2018/9/11
+ * @Description: 抽象 SQL 解析类
  */
 public abstract class AbstractJsqlParser implements ISqlParser {
 

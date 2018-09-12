@@ -15,12 +15,12 @@
  */
 package com.sooner.mybatics.core.injector;
 
-import com.baomidou.mybatisplus.core.metadata.TableInfo;
-import com.baomidou.mybatisplus.core.toolkit.ArrayUtils;
-import com.baomidou.mybatisplus.core.toolkit.Constants;
-import com.baomidou.mybatisplus.core.toolkit.StringPool;
-import com.baomidou.mybatisplus.core.toolkit.TableInfoHelper;
-import com.baomidou.mybatisplus.core.toolkit.sql.SqlScriptUtils;
+import com.sooner.mybatics.core.metadata.TableInfo;
+import com.sooner.mybatics.core.toolkit.ArrayUtils;
+import com.sooner.mybatics.core.toolkit.Constants;
+import com.sooner.mybatics.core.toolkit.StringPool;
+import com.sooner.mybatics.core.toolkit.TableInfoHelper;
+import com.sooner.mybatics.core.toolkit.sql.SqlScriptUtils;
 import org.apache.ibatis.builder.MapperBuilderAssistant;
 import org.apache.ibatis.executor.keygen.KeyGenerator;
 import org.apache.ibatis.executor.keygen.NoKeyGenerator;
@@ -37,12 +37,9 @@ import java.lang.reflect.TypeVariable;
 import java.lang.reflect.WildcardType;
 
 /**
- * <p>
- * 抽象的注入方法类
- * </p>
- *
- * @author hubin
- * @since 2018-04-06
+ * @Auther: Hoo
+ * @Date: 2018/9/11
+ * @Description:  抽象的注入方法类
  */
 public abstract class AbstractMethod {
 

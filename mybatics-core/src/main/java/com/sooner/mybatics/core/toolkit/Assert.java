@@ -20,12 +20,9 @@ import java.util.Collection;
 import java.util.Map;
 
 /**
- * <p>
- * 断言类
- * </p>
- *
- * @author miemie
- * @since 2018-07-24
+ * @Auther: Hoo
+ * @Date: 2018/9/12
+ * @Description: 断言类
  */
 public final class Assert {
 

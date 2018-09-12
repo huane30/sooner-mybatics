@@ -15,16 +15,13 @@
  */
 package com.sooner.mybatics.core.conditions;
 
-import com.baomidou.mybatisplus.core.toolkit.SerializationUtils;
-import com.baomidou.mybatisplus.core.toolkit.StringUtils;
+import com.sooner.mybatics.core.toolkit.SerializationUtils;
+import com.sooner.mybatics.core.toolkit.StringUtils;
 
 /**
- * <p>
- * 条件构造抽象类
- * </p>
- *
- * @author hubin
- * @since 2018-05-25
+ * @Auther: Hoo
+ * @Date: 2018/9/11
+ * @Description: 条件构造抽象类
  */
 @SuppressWarnings("serial")
 public abstract class Wrapper<T> implements ISqlSegment {

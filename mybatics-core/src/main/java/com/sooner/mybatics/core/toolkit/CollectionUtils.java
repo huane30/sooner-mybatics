@@ -19,12 +19,9 @@ import java.util.Collection;
 import java.util.Map;
 
 /**
- * <p>
- * Collection工具类
- * </p>
- *
- * @author Caratacus
- * @since 2016-09-19
+ * @Auther: Hoo
+ * @Date: 2018/9/11
+ * @Description: Collection工具类
  */
 public class CollectionUtils {
 

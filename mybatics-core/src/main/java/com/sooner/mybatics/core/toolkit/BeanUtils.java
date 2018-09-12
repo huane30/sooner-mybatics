@@ -1,6 +1,6 @@
 package com.sooner.mybatics.core.toolkit;
 
-import net.sf.cglib.beans.BeanMap;
+import org.springframework.cglib.beans.BeanMap;
 
 import java.util.Collections;
 import java.util.List;
@@ -9,13 +9,10 @@ import java.util.Map;
 import static java.util.stream.Collectors.toList;
 
 /**
- * <p>
- * Bean 转换工具类<br/>
+ * @Auther: Hoo
+ * @Date: 2018/9/11
+ * @Description: Bean 转换工具类<br/>
  * 使用请依赖 cglib 包
- * </p>
- *
- * @author hubin HCL
- * @since 2018-06-12
  */
 public final class BeanUtils {
 

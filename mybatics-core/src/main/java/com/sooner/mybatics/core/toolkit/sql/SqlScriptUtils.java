@@ -15,16 +15,14 @@
  */
 package com.sooner.mybatics.core.toolkit.sql;
 
-import com.baomidou.mybatisplus.core.toolkit.StringPool;
-import com.baomidou.mybatisplus.core.toolkit.StringUtils;
+
+import com.sooner.mybatics.core.toolkit.StringPool;
+import com.sooner.mybatics.core.toolkit.StringUtils;
 
 /**
- * <p>
- * sql 脚本工具类
- * </p>
- *
- * @author miemie
- * @since 2018-08-15
+ * @Auther: Hoo
+ * @Date: 2018/9/12
+ * @Description: sql 脚本工具类
  */
 public final class SqlScriptUtils {
 

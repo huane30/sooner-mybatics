@@ -15,9 +15,9 @@
  */
 package com.sooner.mybatics.core.mapper;
 
-import com.baomidou.mybatisplus.core.conditions.Wrapper;
-import com.baomidou.mybatisplus.core.metadata.IPage;
-import com.baomidou.mybatisplus.core.toolkit.Constants;
+import com.sooner.mybatics.core.conditions.Wrapper;
+import com.sooner.mybatics.core.metadata.IPage;
+import com.sooner.mybatics.core.toolkit.Constants;
 import org.apache.ibatis.annotations.Param;
 
 import java.io.Serializable;
@@ -74,15 +74,9 @@ import java.util.Map;
  */
 
 /**
- * <p>
- * Mapper 继承该接口后，无需编写 mapper.xml 文件，即可获得CRUD功能
- * </p>
- * <p>
- * 这个 Mapper 支持 id 泛型
- * </p>
- *
- * @author hubin
- * @since 2016-01-23
+ * @Auther: Hoo
+ * @Date: 2018/9/12
+ * @Description: Mapper 继承该接口后，无需编写 mapper.xml 文件，即可获得CRUD功能
  */
 public interface BaseMapper<T> {
 

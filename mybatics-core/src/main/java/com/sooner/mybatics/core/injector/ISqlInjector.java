@@ -15,17 +15,13 @@
  */
 package com.sooner.mybatics.core.injector;
 
-import com.baomidou.mybatisplus.core.assist.ISqlRunner;
 import org.apache.ibatis.builder.MapperBuilderAssistant;
 import org.apache.ibatis.session.Configuration;
 
 /**
- * <p>
- * SQL 自动注入器接口
- * </p>
- *
- * @author hubin
- * @since 2016-07-24
+ * @Auther: Hoo
+ * @Date: 2018/9/12
+ * @Description: SQL 自动注入器接口
  */
 public interface ISqlInjector {
 
@@ -45,7 +41,7 @@ public interface ISqlInjector {
      * </p>
      *
      * @param configuration 全局配置
-     * @see ISqlRunner
+     * @see
      */
     void injectSqlRunner(Configuration configuration);
 }

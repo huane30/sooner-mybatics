@@ -22,8 +22,9 @@ import java.util.concurrent.TimeUnit;
 import java.util.concurrent.atomic.AtomicLong;
 
 /**
- * <p>
- * 高并发场景下System.currentTimeMillis()的性能问题的优化
+ * @Auther: Hoo
+ * @Date: 2018/9/11
+ * @Description: 高并发场景下System.currentTimeMillis()的性能问题的优化
  * </p>
  * <p>
  * System.currentTimeMillis()的调用比new一个普通对象要耗时的多（具体耗时高出多少我还没测试过，有人说是100倍左右）<br>
@@ -33,10 +34,6 @@ import java.util.concurrent.atomic.AtomicLong;
  * 1亿：4699,29,162.0344827586207%<br>
  * 1000万：480,12,40.0%<br>
  * 100万：50,10,5.0%<br>
- * </p>
- *
- * @author hubin
- * @since 2016-08-01
  */
 public class SystemClock {
 

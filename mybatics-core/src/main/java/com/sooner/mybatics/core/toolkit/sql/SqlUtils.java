@@ -15,19 +15,16 @@
  */
 package com.sooner.mybatics.core.toolkit.sql;
 
-import com.baomidou.mybatisplus.annotation.DbType;
-import com.baomidou.mybatisplus.core.enums.SqlLike;
-import com.baomidou.mybatisplus.core.toolkit.Assert;
-import com.baomidou.mybatisplus.core.toolkit.StringPool;
-import com.baomidou.mybatisplus.core.toolkit.StringUtils;
+import com.sooner.mybatics.anno.DbType;
+import com.sooner.mybatics.core.enums.SqlLike;
+import com.sooner.mybatics.core.toolkit.Assert;
+import com.sooner.mybatics.core.toolkit.StringPool;
+import com.sooner.mybatics.core.toolkit.StringUtils;
 
 /**
- * <p>
- * SqlUtils工具类
- * </p>
- *
- * @author Caratacus
- * @since 2016-11-13
+ * @Auther: Hoo
+ * @Date: 2018/9/11
+ * @Description: SqlUtils工具类
  */
 public class SqlUtils {
 

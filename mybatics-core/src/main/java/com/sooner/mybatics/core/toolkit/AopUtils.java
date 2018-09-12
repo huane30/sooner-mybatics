@@ -18,6 +18,7 @@ package com.sooner.mybatics.core.toolkit;
 
 
 import java.lang.reflect.Field;
+import java.util.logging.Logger;
 
 /**
  * @Auther: Hoo
@@ -26,7 +27,7 @@ import java.lang.reflect.Field;
  */
 public class AopUtils {
 
-    private static final Log logger = LogFactory.getLog(AopUtils.class);
+    private static final Logger logger = Logger.getLogger("AopUtils");
 
     /**
      * <p>

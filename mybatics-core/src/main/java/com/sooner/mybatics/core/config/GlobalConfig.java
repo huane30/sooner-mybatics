@@ -15,13 +15,13 @@
  */
 package com.sooner.mybatics.core.config;
 
-import com.baomidou.mybatisplus.annotation.DbType;
-import com.baomidou.mybatisplus.annotation.FieldStrategy;
-import com.baomidou.mybatisplus.annotation.IdType;
-import com.baomidou.mybatisplus.core.handlers.MetaObjectHandler;
-import com.baomidou.mybatisplus.core.incrementer.IKeyGenerator;
-import com.baomidou.mybatisplus.core.injector.ISqlInjector;
-import com.baomidou.mybatisplus.core.toolkit.GlobalConfigUtils;
+import com.sooner.mybatics.anno.DbType;
+import com.sooner.mybatics.anno.FieldStrategy;
+import com.sooner.mybatics.anno.IdType;
+import com.sooner.mybatics.core.handlers.MetaObjectHandler;
+import com.sooner.mybatics.core.incrementer.IKeyGenerator;
+import com.sooner.mybatics.core.injector.ISqlInjector;
+import com.sooner.mybatics.core.toolkit.GlobalConfigUtils;
 import lombok.Data;
 import lombok.experimental.Accessors;
 import org.apache.ibatis.session.SqlSessionFactory;
@@ -31,12 +31,9 @@ import java.util.Set;
 import java.util.concurrent.ConcurrentSkipListSet;
 
 /**
- * <p>
- * Mybatis 全局缓存
- * </p>
- *
- * @author Caratacus
- * @since 2016-12-06
+ * @Auther: Hoo
+ * @Date: 2018/9/11
+ * @Description: Mybatis 全局缓存
  */
 @Data
 @Accessors(chain = true)
@@ -127,5 +124,141 @@ public class GlobalConfig implements Serializable {
          * 字段验证策略
          */
         private FieldStrategy fieldStrategy = FieldStrategy.NOT_NULL;
+
+        public DbType getDbType() {
+            return dbType;
+        }
+
+        public void setDbType(DbType dbType) {
+            this.dbType = dbType;
+        }
+
+        public IdType getIdType() {
+            return idType;
+        }
+
+        public void setIdType(IdType idType) {
+            this.idType = idType;
+        }
+
+        public String getTablePrefix() {
+            return tablePrefix;
+        }
+
+        public void setTablePrefix(String tablePrefix) {
+            this.tablePrefix = tablePrefix;
+        }
+
+        public boolean isTableUnderline() {
+            return tableUnderline;
+        }
+
+        public void setTableUnderline(boolean tableUnderline) {
+            this.tableUnderline = tableUnderline;
+        }
+
+        public boolean isColumnLike() {
+            return columnLike;
+        }
+
+        public void setColumnLike(boolean columnLike) {
+            this.columnLike = columnLike;
+        }
+
+        public boolean isCapitalMode() {
+            return capitalMode;
+        }
+
+        public void setCapitalMode(boolean capitalMode) {
+            this.capitalMode = capitalMode;
+        }
+
+        public IKeyGenerator getKeyGenerator() {
+            return keyGenerator;
+        }
+
+        public void setKeyGenerator(IKeyGenerator keyGenerator) {
+            this.keyGenerator = keyGenerator;
+        }
+
+        public String getLogicDeleteValue() {
+            return logicDeleteValue;
+        }
+
+        public void setLogicDeleteValue(String logicDeleteValue) {
+            this.logicDeleteValue = logicDeleteValue;
+        }
+
+        public String getLogicNotDeleteValue() {
+            return logicNotDeleteValue;
+        }
+
+        public void setLogicNotDeleteValue(String logicNotDeleteValue) {
+            this.logicNotDeleteValue = logicNotDeleteValue;
+        }
+
+        public FieldStrategy getFieldStrategy() {
+            return fieldStrategy;
+        }
+
+        public void setFieldStrategy(FieldStrategy fieldStrategy) {
+            this.fieldStrategy = fieldStrategy;
+        }
+    }
+
+    public boolean isRefresh() {
+        return refresh;
+    }
+
+    public void setRefresh(boolean refresh) {
+        this.refresh = refresh;
+    }
+
+    public boolean isSqlParserCache() {
+        return sqlParserCache;
+    }
+
+    public void setSqlParserCache(boolean sqlParserCache) {
+        this.sqlParserCache = sqlParserCache;
+    }
+
+    public DbConfig getDbConfig() {
+        return dbConfig;
+    }
+
+    public void setDbConfig(DbConfig dbConfig) {
+        this.dbConfig = dbConfig;
+    }
+
+    public ISqlInjector getSqlInjector() {
+        return sqlInjector;
+    }
+
+    public void setSqlInjector(ISqlInjector sqlInjector) {
+        this.sqlInjector = sqlInjector;
+    }
+
+    public SqlSessionFactory getSqlSessionFactory() {
+        return sqlSessionFactory;
+    }
+
+    public void setSqlSessionFactory(SqlSessionFactory sqlSessionFactory) {
+        this.sqlSessionFactory = sqlSessionFactory;
+    }
+
+    public Set<String> getMapperRegistryCache() {
+        return mapperRegistryCache;
+    }
+
+    public void setMapperRegistryCache(Set<String> mapperRegistryCache) {
+        this.mapperRegistryCache = mapperRegistryCache;
+    }
+
+    public MetaObjectHandler getMetaObjectHandler() {
+        return metaObjectHandler;
+    }
+
+    public void setMetaObjectHandler(MetaObjectHandler metaObjectHandler) {
+        this.metaObjectHandler = metaObjectHandler;
     }
 }

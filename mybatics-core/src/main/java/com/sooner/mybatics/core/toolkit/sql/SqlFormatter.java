@@ -6,19 +6,15 @@
  */
 package com.sooner.mybatics.core.toolkit.sql;
 
-import com.baomidou.mybatisplus.core.toolkit.StringPool;
-import com.baomidou.mybatisplus.core.toolkit.StringUtils;
+import com.sooner.mybatics.core.toolkit.StringPool;
+import com.sooner.mybatics.core.toolkit.StringUtils;
 
 import java.util.*;
 
 /**
- * Performs formatting of basic SQL statements (DML + query).
- * <p>
- * Copy Hibernate BasicFormatterImpl
- * </P>
- *
- * @author Gavin King
- * @author Steve Ebersole
+ * @Auther: Hoo
+ * @Date: 2018/9/11
+ * @Description:
  */
 public class SqlFormatter {
 

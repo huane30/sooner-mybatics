@@ -15,17 +15,14 @@
  */
 package com.sooner.mybatics.core.handlers;
 
-import com.baomidou.mybatisplus.core.toolkit.Constants;
+import com.sooner.mybatics.core.toolkit.Constants;
 import org.apache.ibatis.reflection.MetaObject;
 import org.apache.ibatis.reflection.SystemMetaObject;
 
 /**
- * <p>
- * 元对象字段填充控制器抽象类，实现公共字段自动写入
- * </p>
- *
- * @author hubin
- * @since 2016-08-28
+ * @Auther: Hoo
+ * @Date: 2018/9/11
+ * @Description: 元对象字段填充控制器抽象类，实现公共字段自动写入
  */
 public interface MetaObjectHandler {
 

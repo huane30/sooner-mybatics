@@ -19,12 +19,9 @@ package com.sooner.mybatics.core.conditions;
 import java.io.Serializable;
 
 /**
- * <p>
- * SQL 片段接口
- * </p>
- *
- * @author hubin miemie HCL
- * @since 2018-05-28
+ * @Auther: Hoo
+ * @Date: 2018/9/11
+ * @Description: SQL 片段接口
  */
 @FunctionalInterface
 public interface ISqlSegment extends Serializable {

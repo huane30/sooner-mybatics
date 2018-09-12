@@ -14,22 +14,18 @@
  * the License.
  */
 package com.sooner.mybatics.core.conditions.segments;
-
-import com.baomidou.mybatisplus.core.conditions.ISqlSegment;
-import com.baomidou.mybatisplus.core.toolkit.StringPool;
+import com.sooner.mybatics.core.conditions.ISqlSegment;
+import com.sooner.mybatics.core.toolkit.StringPool;
 
 import java.util.List;
 
-import static com.baomidou.mybatisplus.core.enums.SqlKeyword.ORDER_BY;
+import static com.sooner.mybatics.core.enums.SqlKeyword.ORDER_BY;
 import static java.util.stream.Collectors.joining;
 
 /**
- * <p>
- * Order By SQL 片段
- * </p>
- *
- * @author miemie
- * @since 2018-06-27
+ * @Auther: Hoo
+ * @Date: 2018/9/12
+ * @Description:Order By SQL 片段
  */
 @SuppressWarnings("serial")
 public class OrderBySegmentList extends AbstractISegmentList {

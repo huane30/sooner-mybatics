@@ -16,13 +16,13 @@
  */
 package com.sooner.mybatics.core.toolkit;
 
-import com.baomidou.mybatisplus.annotation.DbType;
-import com.baomidou.mybatisplus.annotation.IdType;
-import com.baomidou.mybatisplus.core.config.GlobalConfig;
-import com.baomidou.mybatisplus.core.handlers.MetaObjectHandler;
-import com.baomidou.mybatisplus.core.incrementer.IKeyGenerator;
-import com.baomidou.mybatisplus.core.injector.DefaultSqlInjector;
-import com.baomidou.mybatisplus.core.injector.ISqlInjector;
+import com.sooner.mybatics.anno.DbType;
+import com.sooner.mybatics.anno.IdType;
+import com.sooner.mybatics.core.config.GlobalConfig;
+import com.sooner.mybatics.core.handlers.MetaObjectHandler;
+import com.sooner.mybatics.core.incrementer.IKeyGenerator;
+import com.sooner.mybatics.core.injector.DefaultSqlInjector;
+import com.sooner.mybatics.core.injector.ISqlInjector;
 import org.apache.ibatis.logging.Log;
 import org.apache.ibatis.logging.LogFactory;
 import org.apache.ibatis.session.Configuration;
@@ -33,12 +33,9 @@ import java.util.Set;
 import java.util.concurrent.ConcurrentHashMap;
 
 /**
- * <p>
- * Mybatis全局缓存工具类
- * </p>
- *
- * @author Caratacus
- * @since 2017-06-15
+ * @Auther: Hoo
+ * @Date: 2018/9/11
+ * @Description: Mybatis全局缓存工具类
  */
 public class GlobalConfigUtils {
     /**
@@ -69,10 +66,12 @@ public class GlobalConfigUtils {
      * 获取默认 MybatisGlobalConfig
      * <p>
      * FIXME 这可能是一个伪装成单例模式的原型模式，暂时不确定
+     * TODO
      * </p>
      */
     public static GlobalConfig defaults() {
-        return new GlobalConfig().setDbConfig(new GlobalConfig.DbConfig());
+        //return new GlobalConfig().setDbConfig(new GlobalConfig.DbConfig());
+        return null ;
     }
 
     /**
